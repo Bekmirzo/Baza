@@ -1,0 +1,48 @@
+.left-nav{
+    border: 1px solid black;
+    
+    height: 100%;
+    overflow-y: auto;
+    align-self: flex-start;   
+}
+ul{
+    border: 1px solid green;
+}
+li{
+    border: 1px solid red;
+}
+.it{
+   overflow: hidden;
+   height: 0;
+   transition: height 1s ease;
+}
+body{
+        padding: 0;
+        margin: 0;
+        
+}
+.center{
+    border: 2px solid red;
+    align-self: flex-end;
+    height: 100%;
+    width: 85%;
+}
+.header{
+    border: 2px solid darkblue;
+    height: 20%;
+}
+div{
+    border: 1px solid tomato;
+}
+.container{
+    height: 100%;
+    border: 3px solid chartreuse;
+    position: absolute;
+    width: 100%;
+}
+.precenter{
+    height: 75%;
+    display: flex;
+    border: 2px solid blue;
+    
+}
